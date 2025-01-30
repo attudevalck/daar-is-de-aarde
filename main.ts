@@ -2,9 +2,9 @@ basic.forever(function () {
     if (input.isGesture(Gesture.LogoDown)) {
         basic.showLeds(`
             . . # . .
-            . . # . .
-            # . # . #
             . # # # .
+            # . # . #
+            . . # . .
             . . # . .
             `)
     }
@@ -13,9 +13,9 @@ basic.forever(function () {
     if (input.isGesture(Gesture.LogoUp)) {
         basic.showLeds(`
             . . # . .
-            . # # # .
-            # . # . #
             . . # . .
+            # . # . #
+            . # # # .
             . . # . .
             `)
     }

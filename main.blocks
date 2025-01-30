@@ -1,22 +1,22 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><variables></variables><block type="device_forever" id="u%:W.e4sgV:l(5da_?Fl" x="-732" y="187"><statement name="HANDLER"><block type="controls_if" id="C9h|cJ|q2Ph7Q_D}/H*L"><value name="IF0"><shadow type="logic_boolean" id="CBWj}_KG(:;sTJQl,Lfb"><field name="BOOL">TRUE</field></shadow><block type="deviceisgesture" id="de%3.]`_|q@Z)pOv!PvZ"><field name="gesture">Gesture.LogoDown</field></block></value><statement name="DO0"><block type="device_show_leds" id="eB!TaTt%9(evUO_u/K{|"><field name="LEDS">`
-        . . # . . 
-        . . # . . 
-        # . # . # 
-        . # # # . 
-        . . # . .
-        `</field></block></statement></block></statement></block><block type="device_forever" id="!0@x4y~]1-+I9nZz%M`N" x="-331" y="203"><statement name="HANDLER"><block type="controls_if" id="6_[Ts1LiA)48gLSeO!VX"><value name="IF0"><shadow type="logic_boolean" id="n,VF+eaBNUuOb;1E}A|;"><field name="BOOL">TRUE</field></shadow><block type="deviceisgesture" id="ba2yh]y3(PGo*oIE@zYN"><field name="gesture">Gesture.LogoUp</field></block></value><statement name="DO0"><block type="device_show_leds" id="ZF*;QtZ8-Yh^yb_VIAKk"><field name="LEDS">`
+<xml xmlns="https://developers.google.com/blockly/xml"><variables></variables><block type="device_forever" id="u%:W.e4sgV:l(5da_?Fl" x="-401" y="-16"><statement name="HANDLER"><block type="controls_if" id="C9h|cJ|q2Ph7Q_D}/H*L"><value name="IF0"><shadow type="logic_boolean" id="CBWj}_KG(:;sTJQl,Lfb"><field name="BOOL">TRUE</field></shadow><block type="deviceisgesture" id="de%3.]`_|q@Z)pOv!PvZ"><field name="gesture">Gesture.LogoDown</field></block></value><statement name="DO0"><block type="device_show_leds" id="eB!TaTt%9(evUO_u/K{|"><field name="LEDS">`
         . . # . . 
         . # # # . 
         # . # . # 
         . . # . . 
         . . # . .
-        `</field></block></statement></block></statement></block><block type="device_forever" id="cq%LjE[E;dte+cG0xnrA" x="-726" y="576"><statement name="HANDLER"><block type="controls_if" id="rn=5%2.ZU?=HMyt$~T+H"><value name="IF0"><shadow type="logic_boolean" id=")dH(-CgoFt]$?f#?8M.*"><field name="BOOL">TRUE</field></shadow><block type="deviceisgesture" id="F.rFRy!a6kU%+N`@^T[-"><field name="gesture">Gesture.TiltLeft</field></block></value><statement name="DO0"><block type="device_show_leds" id="6]cn$Zc7Q{kR%/F:A|7_"><field name="LEDS">`
+        `</field></block></statement></block></statement></block><block type="device_forever" id="!0@x4y~]1-+I9nZz%M`N" x="0" y="0"><statement name="HANDLER"><block type="controls_if" id="6_[Ts1LiA)48gLSeO!VX"><value name="IF0"><shadow type="logic_boolean" id="n,VF+eaBNUuOb;1E}A|;"><field name="BOOL">TRUE</field></shadow><block type="deviceisgesture" id="ba2yh]y3(PGo*oIE@zYN"><field name="gesture">Gesture.LogoUp</field></block></value><statement name="DO0"><block type="device_show_leds" id="ZF*;QtZ8-Yh^yb_VIAKk"><field name="LEDS">`
+        . . # . . 
+        . . # . . 
+        # . # . # 
+        . # # # . 
+        . . # . .
+        `</field></block></statement></block></statement></block><block type="device_forever" id="cq%LjE[E;dte+cG0xnrA" x="-395" y="373"><statement name="HANDLER"><block type="controls_if" id="rn=5%2.ZU?=HMyt$~T+H"><value name="IF0"><shadow type="logic_boolean" id=")dH(-CgoFt]$?f#?8M.*"><field name="BOOL">TRUE</field></shadow><block type="deviceisgesture" id="F.rFRy!a6kU%+N`@^T[-"><field name="gesture">Gesture.TiltLeft</field></block></value><statement name="DO0"><block type="device_show_leds" id="6]cn$Zc7Q{kR%/F:A|7_"><field name="LEDS">`
         . . # . . 
         . # . . . 
         # # # # # 
         . # . . . 
         . . # . .
-        `</field></block></statement></block></statement></block><block type="device_forever" id="a`LWl]rx/Yo@38|;~vC^" x="-200" y="588"><statement name="HANDLER"><block type="controls_if" id="-?6ZVB}6r~ifpG5$uL!("><value name="IF0"><shadow type="logic_boolean" id="/rH3kXh/M[VCX]/XF1eb"><field name="BOOL">TRUE</field></shadow><block type="deviceisgesture" id="mL7fr9Uzye?V3!xWk+ss"><field name="gesture">Gesture.TiltRight</field></block></value><statement name="DO0"><block type="device_show_leds" id="1j`OaH@d0!c!X@wDb{QM"><field name="LEDS">`
+        `</field></block></statement></block></statement></block><block type="device_forever" id="a`LWl]rx/Yo@38|;~vC^" x="131" y="385"><statement name="HANDLER"><block type="controls_if" id="-?6ZVB}6r~ifpG5$uL!("><value name="IF0"><shadow type="logic_boolean" id="/rH3kXh/M[VCX]/XF1eb"><field name="BOOL">TRUE</field></shadow><block type="deviceisgesture" id="mL7fr9Uzye?V3!xWk+ss"><field name="gesture">Gesture.TiltRight</field></block></value><statement name="DO0"><block type="device_show_leds" id="1j`OaH@d0!c!X@wDb{QM"><field name="LEDS">`
         . . # . . 
         . . . # . 
         # # # # # 
